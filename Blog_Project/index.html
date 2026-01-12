@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <title>Blog</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>RideFlow — BMX Компанія</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="page">
 
-<header class="header">
-    <span class="logo">BLOG</span>
-    <div class="menu">☰</div>
-</header>
+    <header class="header">
+      <div class="container header-inner">
+        <h1 class="logo">RideFlow</h1>
+        <nav class="nav">
+          <a href="#">Головна</a>
+          <a href="#">Про нас</a>
+          <a href="#">Контакти</a>
+        </nav>
+      </div>
+    </header>
 
-<main class="container">
-    <h1 class="title">Blog Title</h1>
-    <p class="author">by <span>username</span></p>
+    <main class="main">
+      <div class="container">
 
-    <img 
-        src="https://images.unsplash.com/photo-1494526585095-c41746248156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" 
-        alt="Місто"
-        class="image"
-       
-    >
+        <section class="gallery">  <!-- section — окрема логічна частина сторінки -->
+          <h2>Наші байки та трюки</h2>
+          <div class="gallery-grid">
 
-    <p class="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Integer posuere erat a ante venenatis dapibus posuere velit aliquet. 
-        Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-    </p>
+            <div class="gallery-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkLgbJZxpIJsQd_Ok_gngDj12OOQ6Yme6mQ&s" alt="BMX байк">
+              <h3>Стильний байк</h3>
+              <p>Міцний та легкий, готовий до трюків.</p>
+              <button>Детальніше</button>
+            </div>
 
-    <button class="button">Read more</button>
+            <div class="gallery-card">
+              <img src="https://cdn.pixabay.com/photo/2013/03/27/12/30/bmx-97093_1280.jpg" alt="Трюки на BMX">
+              <h3>Трюки на максимум</h3>
+              <p>Мануали, барспіни та високий адреналін.</p>
+              <button>Детальніше</button>
+            </div>
 
-    <div class="icons">
-        <span>🐦</span>
-        <span>📘</span>
-        <span>📷</span>
-    </div>
-</main>
+            <div class="gallery-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuBKF5KNqEBoViT0cy6amUiaoyCGQNMi_gA&s" alt="BMX дроп">
+              <h3>Дроп та стрит</h3>
+              <p>Високі дропи та круті трюки на вулиці.</p>
+              <button>Детальніше</button>
+            </div>
 
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+  </div>
 </body>
 </html>
